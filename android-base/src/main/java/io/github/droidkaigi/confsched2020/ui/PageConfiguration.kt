@@ -20,6 +20,7 @@ enum class PageConfiguration(
     SPONSORS(R.id.sponsors, isTopLevel = true),
     CONTRIBUTOR(R.id.contributor, isTopLevel = true),
     SETTING(R.id.setting, isTopLevel = true),
+    SEARCH(R.id.search_sessions, hasTitle = false, isTopLevel = false),
     OTHER(0);
 
     operator fun component1() = id
